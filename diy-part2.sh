@@ -14,9 +14,9 @@
 sed -i 's/192.168.1.1/192.168.98.1/g' package/base-files/files/bin/config_generate
 sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
 sed -i 's/\/bin\/login/\/bin\/login -f root/' /etc/config/ttyd
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
+#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+#src-git kenzo https://github.com/kenzok8/openwrt-packages
+#src-git small https://github.com/kenzok8/small
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 rm -rf package/feeds/luci/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon
